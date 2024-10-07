@@ -626,7 +626,7 @@ public class Minecraft implements IThreadListener {
 		}
 
 		ShaderSource.clearCache();
-		GuiMainMenu.doResourceReloadHack();
+		
 
 		this.mcLanguageManager.parseLanguageMetadata(arraylist);
 		if (this.renderGlobal != null) {
